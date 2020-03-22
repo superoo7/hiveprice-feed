@@ -7,9 +7,9 @@ Update Hive Price Feed for Witness using CoinGecko API and WebSocket.
 ## Feature
 
 - Using CoinGecko websocket to update Hive price feed on the fly.
-- Added test cases to cover edge cases for this script
+- Added test cases for the script
 - In case websocket disconnected use CoinGecko REST API `/simple/price` endpoint to update price and restart websocket.
-- Using Docker or PM2 approach to respawn the script on error.
+- Using Docker or PM2 approach to deploy easily and respawn the script on error.
 - Customizable env file for setting up websocket, price time out, and sensitivity.
 
 ## Prerequisite
